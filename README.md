@@ -4,7 +4,7 @@ Topic Modelling is different from rule-based text mining approaches that use reg
 
 # Data:
 
-The dataset we are using here is a list of over one million news headlines published over a period of 15 years.
+The dataset I am using here is a list of over one million news headlines published over a period of 15 years.
 
 # Gensim:
 
