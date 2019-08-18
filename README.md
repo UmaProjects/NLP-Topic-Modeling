@@ -24,7 +24,7 @@ LDA is an example of topic model and is used to classify text in a document to a
 
 # Steps after Preprocessing:
 
-	1)We are using Gensim library for preprocessing the text(using gensim.utils.simple_preprocess(text) method).
+	1)I am using Gensim library for preprocessing the text(using gensim.utils.simple_preprocess(text) method).
 	2)After preprocessing, we create a dictionary of bag of words(Bag of words corpora in the Gensim library are based on dictionaries and contain the ID of each word along with the frequency of 		occurrence of the word).
 		i) Using Gensim filter_extremes method, we are filtering out the tokens which appeared in less than 15 documents, more than 0.5(fraction of the total corpus size) and then keep only first 			100000 most frequent words.
 		ii)For each document we create a dictionary reporting how many words and how many times those words appear using doc2bow method from Gensim
